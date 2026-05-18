@@ -8,14 +8,14 @@
 # Complète le corps de la fonction
 
 def afficher_bienvenue():
-    print(TODO)
+    print("Bienvenue dans l'application Maisons !")
 
 # --- QUESTION 2 ---
 # Fonction avec 2 paramètres : nom et prix
 # Elle affiche : "Maison : " + nom + " | Prix : " + str(prix)
 # Complète les paramètres
 
-def afficher_maison(TODO, TODO):
+def afficher_maison(nom, prix):
     print("Maison : " + nom + " | Prix : " + str(prix))
 
 # --- QUESTION 3 ---
@@ -23,7 +23,7 @@ def afficher_maison(TODO, TODO):
 # Complète la condition
 
 def categoriser_prix(prix):
-    if TODO:
+    if prix > 300000:
         return "Chère"
     else:
         return "Abordable"

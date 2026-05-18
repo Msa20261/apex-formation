@@ -8,7 +8,7 @@ public class Module1_4_Methodes {
     // Complète le corps de la méthode
 
     public static void afficherBienvenue() {
-        System.out.println(TODO);
+        System.out.println("Bienvenue dans l'application Maisons !");
     }
 
     // --- QUESTION 2 ---
@@ -16,7 +16,7 @@ public class Module1_4_Methodes {
     // Elle affiche : "Maison : " + nom + " | Prix : " + prix
     // Complète les paramètres
 
-    public static void afficherMaison(TODO nom, TODO prix) {
+    public static void afficherMaison(String nom, double prix) {
         System.out.println("Maison : " + nom + " | Prix : " + prix);
     }
 
@@ -25,7 +25,7 @@ public class Module1_4_Methodes {
     // Complète la condition
 
     public static String categoriserPrix(double prix) {
-        if (TODO) {
+        if (prix > 300000) {
             return "Chère";
         } else {
             return "Abordable";
