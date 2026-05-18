@@ -13,7 +13,7 @@
 | 01 | Les variables | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 02 | Les conditions (if/else) | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 03 | Les boucles (for) | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 04 | Les méthodes / fonctions | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
+| 04 | Les méthodes / fonctions | 🔄 | 🔄 | 🔄 | 🔄 | En cours |
 | 05 | Les classes | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
 | 06 | SOSL (recherche) | ⬜ | ⬜ | — | — | A venir |
 | 07 | Triggers Apex | ⬜ | — | — | — | A venir |
