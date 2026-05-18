@@ -1,0 +1,24 @@
+-- MODULE 2.2 - WHERE (FILTRER)
+-- Lance chaque requête séparément dans Developer Console > Query Editor
+-- Copie uniquement SELECT/FROM/WHERE, pas les lignes --
+
+-- QUESTION 1 : Maisons dont le prix est supérieur à 200000
+SELECT Name, Price__c
+FROM House__c
+WHERE ???
+
+-- QUESTION 2 : Maisons avec 3 chambres ou plus
+SELECT Name, Bedroom__c
+FROM House__c
+WHERE ???
+
+-- QUESTION 3 : Maisons dont le nom contient "House"
+-- Indice : utilise LIKE '%House%'
+SELECT Name
+FROM House__c
+WHERE Name LIKE ???
+
+-- QUESTION 4 : Prix > 200000 ET chambres >= 3 (2 conditions avec AND)
+SELECT Name, Price__c, Bedroom__c
+FROM House__c
+WHERE ??? AND ???
