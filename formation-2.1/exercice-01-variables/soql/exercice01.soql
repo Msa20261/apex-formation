@@ -1,0 +1,28 @@
+-- ============================================
+-- EXERCICE 01 - LES VARIABLES (SOQL)
+-- ============================================
+-- SOQL = Salesforce Object Query Language
+-- C'est le langage pour lire des données dans Salesforce
+-- Lance ces requêtes dans : Developer Console > Query Editor
+--
+-- Complète les lignes marquées TODO
+-- ============================================
+
+-- --- TODO 1 ---
+-- Récupère le nom et la ville de toutes tes maisons
+-- Remplace les ??? par les bons noms de champs
+SELECT ???, ???
+FROM House__c
+
+-- --- TODO 2 ---
+-- Récupère tous ces champs : Id, Name, Address__c, City__c, State__c, Zip__c
+-- Limite le résultat à 10 enregistrements
+SELECT ???
+FROM House__c
+LIMIT ???
+
+-- --- TODO 3 ---
+-- Compte combien tu as de maisons au total
+-- Indice : utilise COUNT()
+SELECT ???
+FROM House__c
