@@ -16,13 +16,13 @@
 | 1.3 | Les boucles (for/while) | ✅ |
 | 1.4 | Les méthodes / fonctions | ✅ |
 | 1.5 | Les classes | ✅ |
-| **PHASE 2 — SOQL** | | 🔄 En cours |
+| **PHASE 2 — SOQL** | | ✅ Terminée |
 | 2.1 | SELECT basique | ✅ |
 | 2.2 | WHERE — filtrer | ✅ |
 | 2.3 | ORDER BY · LIMIT · OFFSET | ✅ |
 | 2.4 | COUNT · SUM | ✅ |
-| 2.5 | Relations entre objets | 🔄 |
-| **PHASE 3 — Apex intermédiaire** | | ⬜ A venir |
+| 2.5 | Relations entre objets | ✅ |
+| **PHASE 3 — Apex intermédiaire** | | 🔄 Prochaine étape |
 | **PHASE 4 — SOSL** | | ⬜ A venir |
 | **PHASE 5 — Classes de test** | | ⬜ A venir |
 | **PHASE 6 — LWC** | | ⬜ A venir |
@@ -48,7 +48,7 @@
 - [x] Module 2.2 — WHERE filtrer ✅
 - [x] Module 2.3 — ORDER BY · LIMIT · OFFSET ✅
 - [x] Module 2.4 — COUNT · SUM ✅
-- [ ] Module 2.5 — Relations entre objets 🔄
+- [x] Module 2.5 — Relations entre objets ✅
 
 ---
 
