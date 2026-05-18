@@ -1,9 +1,6 @@
-# EXERCICE FINAL - RAPPORT DE MAISONS (Python)
-# Combine : Variables + Conditions + Boucles + Méthodes + Classes
-# Les données sont simulées (pas de connexion Salesforce en Python ici)
-# Complète uniquement les lignes marquées TODO
+# EXERCICE FINAL - RAPPORT DE MAISONS (Python) - CORRECTION
 
-# Données simulées (remplace le SOQL)
+# Données simulées (remplace le SOQL en Python)
 maisons = [
     {"nom": "Villa Soleil",  "prix": 450000, "ville": "Paris"},
     {"nom": "Maison Rose",   "prix": 180000, "ville": "Lyon"},
@@ -12,47 +9,36 @@ maisons = [
     {"nom": "Villa Moderne", "prix": 610000, "ville": "Paris"},
 ]
 
-# =============================================
-# ETAPE 2 - Variables : compteurs
-# =============================================
+# ETAPE 2 - Variables compteurs initialisées à 0
+total_maisons      = 0
+maisons_cheres     = 0
+maisons_abordables = 0
+prix_total         = 0
 
-total_maisons      = TODO   # commence à 0
-maisons_cheres     = TODO   # commence à 0
-maisons_abordables = TODO   # commence à 0
-prix_total         = TODO   # commence à 0
-
-# =============================================
-# ETAPE 3 - Boucle : parcourir chaque maison
-# =============================================
-
+# ETAPE 3 - Boucle : on parcourt chaque maison de la liste
 print("--- LISTE DES MAISONS ---")
 
-for maison in TODO:
+for maison in maisons:
 
+    # A chaque tour on ajoute 1 au total et on additionne le prix
     total_maisons += 1
     prix_total    += maison["prix"]
 
-    # =============================================
-    # ETAPE 4 - Condition : classer la maison
-    # =============================================
-
-    if TODO:
+    # ETAPE 4 - Condition : on classe chaque maison
+    if maison["prix"] > 300000:
         maisons_cheres += 1
         print("CHERE     :", maison["nom"], "-", maison["prix"])
     else:
         maisons_abordables += 1
         print("ABORDABLE :", maison["nom"], "-", maison["prix"])
 
-# =============================================
-# ETAPE 5 - Méthode : afficher le résumé
-# =============================================
-
+# ETAPE 5 - Méthode résumé
 def afficher_resume(total, cheres, abordables, prix_moyen):
     print("--- RÉSUMÉ ---")
-    print("Total maisons      :", TODO)
-    print("Maisons chères     :", TODO)
-    print("Maisons abordables :", TODO)
-    print("Prix moyen         :", TODO)
+    print("Total maisons      :", total)
+    print("Maisons chères     :", cheres)
+    print("Maisons abordables :", abordables)
+    print("Prix moyen         :", prix_moyen)
 
 prix_moyen = prix_total / total_maisons
 afficher_resume(total_maisons, maisons_cheres, maisons_abordables, prix_moyen)

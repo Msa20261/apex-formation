@@ -1,51 +1,36 @@
-// EXERCICE FINAL - RAPPORT DE MAISONS (Apex)
-// Combine : SOQL + Variables + Conditions + Boucles + Méthodes
-// Complète uniquement les lignes marquées TODO
+// EXERCICE FINAL - RAPPORT DE MAISONS (Apex) - CORRECTION
 
 public class RapportMaisons {
 
     public static void genererRapport() {
 
-        // =============================================
-        // ETAPE 1 - SOQL : récupérer les maisons
-        // (Phase 2 - SELECT + ORDER BY)
-        // =============================================
-
+        // ETAPE 1 - SOQL
+        // On demande à Salesforce toutes les maisons avec un prix > 0
+        // triées du moins cher au plus cher
         List<House__c> maisons = [
             SELECT Name, Price__c, Bedroom__c, City__c
             FROM House__c
-            WHERE TODO           // récupère seulement les maisons avec un prix > 0
-            ORDER BY TODO        // trie par prix croissant
+            WHERE Price__c > 0
+            ORDER BY Price__c ASC
         ];
 
-        // =============================================
-        // ETAPE 2 - Variables : compteurs
-        // (Phase 1.1)
-        // =============================================
+        // ETAPE 2 - Variables compteurs, toutes initialisées à 0
+        Integer totalMaisons      = 0;
+        Integer maisonCheres      = 0;
+        Integer maisonsAbordables = 0;
+        Decimal prixTotal         = 0;
 
-        Integer totalMaisons    = TODO;   // commence à 0
-        Integer maisonCheres    = TODO;   // commence à 0
-        Integer maisonsAbordables = TODO; // commence à 0
-        Decimal prixTotal       = TODO;   // commence à 0
-
-        // =============================================
-        // ETAPE 3 - Boucle : parcourir chaque maison
-        // (Phase 1.3)
-        // =============================================
-
+        // ETAPE 3 - Boucle : on parcourt chaque maison de la liste
         System.debug('--- LISTE DES MAISONS ---');
 
-        for (House__c maison : TODO) {
+        for (House__c maison : maisons) {
 
+            // A chaque tour on ajoute 1 au total et on additionne le prix
             totalMaisons++;
             prixTotal += maison.Price__c;
 
-            // =============================================
-            // ETAPE 4 - Condition : classer la maison
-            // (Phase 1.2)
-            // =============================================
-
-            if (TODO) {
+            // ETAPE 4 - Condition : on classe chaque maison
+            if (maison.Price__c > 300000) {
                 maisonCheres++;
                 System.debug('CHERE     : ' + maison.Name + ' - ' + maison.Price__c);
             } else {
@@ -54,21 +39,17 @@ public class RapportMaisons {
             }
         }
 
-        // =============================================
-        // ETAPE 5 - Méthode : afficher le résumé
-        // (Phase 1.4)
-        // =============================================
-
+        // ETAPE 5 - On calcule le prix moyen puis on appelle la méthode résumé
         Decimal prixMoyen = prixTotal / totalMaisons;
         afficherResume(totalMaisons, maisonCheres, maisonsAbordables, prixMoyen);
     }
 
-    // Méthode qui affiche le résumé final
+    // Méthode appelée à la fin pour afficher le résumé
     public static void afficherResume(Integer total, Integer cheres, Integer abordables, Decimal prixMoyen) {
         System.debug('--- RÉSUMÉ ---');
-        System.debug('Total maisons      : ' + TODO);
-        System.debug('Maisons chères     : ' + TODO);
-        System.debug('Maisons abordables : ' + TODO);
-        System.debug('Prix moyen         : ' + TODO);
+        System.debug('Total maisons      : ' + total);
+        System.debug('Maisons chères     : ' + cheres);
+        System.debug('Maisons abordables : ' + abordables);
+        System.debug('Prix moyen         : ' + prixMoyen);
     }
 }

@@ -1,24 +1,20 @@
--- EXERCICE FINAL - REQUÊTES SOQL DE SYNTHÈSE
--- Lance chaque requête dans Developer Console > Query Editor
+-- EXERCICE FINAL - REQUÊTES SOQL - CORRECTION
+-- Lance chaque requête séparément dans Developer Console > Query Editor
 
--- REQUÊTE 1 : Liste complète triée par prix
--- Récupère : Name, Price__c, Bedroom__c, City__c
--- Filtre : seulement prix > 0
--- Trie : par prix croissant
+-- REQUÊTE 1 : Liste complète triée par prix croissant
 SELECT Name, Price__c, Bedroom__c, City__c
 FROM House__c
-WHERE ???
-ORDER BY ???
+WHERE Price__c > 0
+ORDER BY Price__c ASC
 
--- REQUÊTE 2 : Statistiques globales
--- Affiche en une seule requête : nombre total, prix min, prix max, prix moyen
+-- REQUÊTE 2 : Statistiques globales en une seule requête
 SELECT COUNT(), MIN(Price__c), MAX(Price__c), AVG(Price__c)
 FROM House__c
-WHERE ???
+WHERE Price__c > 0
 
--- REQUÊTE 3 : Maisons chères uniquement (prix > 300 000) triées + limitées à 3
+-- REQUÊTE 3 : Top 3 maisons les plus chères
 SELECT Name, Price__c, City__c
 FROM House__c
-WHERE ???
+WHERE Price__c > 300000
 ORDER BY Price__c DESC
-LIMIT ???
+LIMIT 3
