@@ -10,10 +10,10 @@ public class Module1_5_Classes {
         // Syntaxe : Maison m = new Maison(nom, prix, ville);
 
         // Crée la première maison : "Villa Soleil", 450000, "Paris"
-        Maison maison1 = new Maison(TODO, TODO, TODO);
+        Maison maison1 = new Maison("Villa Soleil", 450000, "Paris");
 
         // Crée la deuxième maison : "Maison Rose", 180000, "Lyon"
-        Maison maison2 = new Maison(TODO, TODO, TODO);
+        Maison maison2 = new Maison("Maison Rose", 180000, "Lyon");
 
         // Ne pas modifier les lignes ci-dessous
         maison1.afficher();
