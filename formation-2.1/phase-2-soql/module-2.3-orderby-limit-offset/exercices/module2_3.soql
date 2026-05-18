@@ -1,0 +1,25 @@
+-- MODULE 2.3 - ORDER BY · LIMIT · OFFSET
+-- Lance chaque requête séparément dans Developer Console > Query Editor
+
+-- QUESTION 1 : Maisons triées par prix croissant (ASC)
+SELECT Name, Price__c
+FROM House__c
+ORDER BY ???
+
+-- QUESTION 2 : Maisons triées par prix décroissant (DESC)
+SELECT Name, Price__c
+FROM House__c
+ORDER BY ??? DESC
+
+-- QUESTION 3 : Les 3 maisons les moins chères
+SELECT Name, Price__c
+FROM House__c
+ORDER BY ???
+LIMIT ???
+
+-- QUESTION 4 : Maisons de la position 3 à 5 (saute les 2 premières)
+SELECT Name, Price__c
+FROM House__c
+ORDER BY Price__c ASC
+LIMIT ???
+OFFSET ???
