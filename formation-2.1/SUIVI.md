@@ -14,7 +14,7 @@
 | 02 | Les conditions (if/else) | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 03 | Les boucles (for) | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 04 | Les méthodes / fonctions | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 05 | Les classes | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
+| 05 | Les classes | 🔄 | 🔄 | 🔄 | — | En cours |
 | 06 | SOSL (recherche) | ⬜ | ⬜ | — | — | A venir |
 | 07 | Triggers Apex | ⬜ | — | — | — | A venir |
 | 08 | Classes de test | ⬜ | — | — | — | A venir |
