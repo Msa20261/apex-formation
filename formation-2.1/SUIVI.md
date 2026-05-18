@@ -8,16 +8,25 @@
 
 ## Progression globale
 
-| Exercice | Sujet | Apex | SOQL | Python | Java | Statut |
-|----------|-------|------|------|--------|------|--------|
-| 01 | Les variables | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 02 | Les conditions (if/else) | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 03 | Les boucles (for) | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 04 | Les méthodes / fonctions | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 05 | Les classes | ✅ | ✅ | ✅ | — | Terminé |
-| 06 | SOSL (recherche) | ⬜ | ⬜ | — | — | A venir |
-| 07 | Triggers Apex | ⬜ | — | — | — | A venir |
-| 08 | Classes de test | ⬜ | — | — | — | A venir |
+| # | Sujet | Statut |
+|---|-------|--------|
+| **PHASE 1 — Fondations** | | ✅ Terminée |
+| 1.1 | Les variables | ✅ |
+| 1.2 | Les conditions (if/else) | ✅ |
+| 1.3 | Les boucles (for/while) | ✅ |
+| 1.4 | Les méthodes / fonctions | ✅ |
+| 1.5 | Les classes | ✅ |
+| **PHASE 2 — SOQL** | | 🔄 En cours |
+| 2.1 | SELECT basique | 🔄 |
+| 2.2 | WHERE — filtrer | ⬜ |
+| 2.3 | ORDER BY · LIMIT · OFFSET | ⬜ |
+| 2.4 | COUNT · SUM | ⬜ |
+| 2.5 | Relations entre objets | ⬜ |
+| **PHASE 3 — Apex intermédiaire** | | ⬜ A venir |
+| **PHASE 4 — SOSL** | | ⬜ A venir |
+| **PHASE 5 — Classes de test** | | ⬜ A venir |
+| **PHASE 6 — LWC** | | ⬜ A venir |
+| **PHASE 7 — Intégrations** | | ⬜ A venir |
 
 > **Légende :** ⬜ A faire · ✅ Terminé · 🔄 En cours
 
@@ -35,6 +44,7 @@
 - [x] Exercice 03 — Les boucles (for/while) ✅
 - [x] Exercice 04 — Les méthodes / fonctions ✅
 - [x] Exercice 05 — Les classes et objets ✅
+- [ ] Module 2.1 — SELECT basique 🔄
 
 ---
 

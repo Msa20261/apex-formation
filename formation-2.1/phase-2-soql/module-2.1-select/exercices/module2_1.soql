@@ -1,0 +1,24 @@
+-- MODULE 2.1 - SELECT BASIQUE
+-- Lance chaque requête séparément dans Developer Console > Query Editor
+-- Copie uniquement la ligne SELECT/FROM/LIMIT, pas les lignes avec --
+
+-- QUESTION 1 : Récupère uniquement le nom des maisons
+-- Remplace ??? par le bon champ
+SELECT ???
+FROM House__c
+
+-- QUESTION 2 : Récupère le nom ET la ville
+-- Remplace les ??? par les 2 bons champs
+SELECT ???, ???
+FROM House__c
+
+-- QUESTION 3 : Récupère 5 champs : Name, City__c, Price__c, Bedroom__c, Bathrooms__c
+-- Remplace ??? par les 5 champs séparés par des virgules
+SELECT ???
+FROM House__c
+
+-- QUESTION 4 : Même requête mais limitée à 5 résultats
+-- Remplace ??? par le bon nombre
+SELECT Name, City__c, Price__c, Bedroom__c, Bathrooms__c
+FROM House__c
+LIMIT ???
