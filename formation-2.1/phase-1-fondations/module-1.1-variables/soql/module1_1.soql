@@ -1,0 +1,18 @@
+-- MODULE 1.1 - LES VARIABLES (SOQL)
+-- Lance ces requêtes dans : Developer Console > Query Editor
+-- Complète uniquement les lignes marquées TODO
+
+-- TODO 1 : Remplace les ??? par : Name, City__c
+SELECT ???
+FROM House__c
+
+-- TODO 2 : Remplace les ??? pour lire ces champs : Id, Name, Address__c, City__c
+--          et remplace le ??? du LIMIT par 10
+SELECT ???
+FROM House__c
+LIMIT ???
+
+-- TODO 3 : Remplace les ??? pour compter toutes les maisons
+--          Indice : utilise COUNT()
+SELECT ???
+FROM House__c
