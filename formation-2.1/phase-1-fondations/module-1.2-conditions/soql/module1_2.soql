@@ -7,18 +7,18 @@
 -- Remplace ??? par la bonne condition
 SELECT Name, Price__c
 FROM House__c
-WHERE ???
+WHERE Price__c > 300000
 
 -- QUESTION 2
 -- Récupère les maisons qui ont 3 chambres ou plus
 -- Remplace ??? par la bonne condition
 SELECT Name, Bedroom__c
 FROM House__c
-WHERE ???
+WHERE Bedroom__c >= 3
 
 -- QUESTION 3
 -- Récupère les maisons situées à Paris
 -- Remplace ??? par la bonne condition
 SELECT Name, City__c
 FROM House__c
-WHERE ???
+WHERE City__c = 'Paris'

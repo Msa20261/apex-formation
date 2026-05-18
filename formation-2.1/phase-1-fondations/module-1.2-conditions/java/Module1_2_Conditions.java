@@ -15,7 +15,7 @@ public class Module1_2_Conditions {
         // Si le prix est supérieur à 300000 → afficher "Maison chère"
         // Sinon → afficher "Maison abordable"
 
-        if (TODO) {
+        if (prix > 300000) {
             System.out.println("Maison chère");
         } else {
             System.out.println("Maison abordable");
@@ -25,7 +25,7 @@ public class Module1_2_Conditions {
         // Si nbChambres est supérieur ou égal à 3 → afficher "Grand logement"
         // Sinon → afficher "Petit logement"
 
-        if (TODO) {
+        if (nbChambres >= 3) {
             System.out.println("Grand logement");
         } else {
             System.out.println("Petit logement");
@@ -37,7 +37,7 @@ public class Module1_2_Conditions {
         // Attention en Java : pour comparer du texte, utilise .equals() et non ==
         // Exemple : ville.equals("Paris")
 
-        if (TODO) {
+        if (ville.equals("Paris")) {
             System.out.println("Maison à Paris");
         } else {
             System.out.println("Maison en province");

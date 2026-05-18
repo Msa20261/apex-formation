@@ -11,7 +11,7 @@
 | Exercice | Sujet | Apex | SOQL | Python | Java | Statut |
 |----------|-------|------|------|--------|------|--------|
 | 01 | Les variables | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 02 | Les conditions (if/else) | 🔄 | 🔄 | 🔄 | 🔄 | En cours |
+| 02 | Les conditions (if/else) | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 03 | Les boucles (for) | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
 | 04 | Les méthodes / fonctions | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
 | 05 | Les classes | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
@@ -31,7 +31,7 @@
 - [x] Création de la structure Formation 2.1
 - [x] Création du fichier de suivi
 - [x] Exercice 01 — Les variables ✅
-- [ ] Exercice 02 — Les conditions (if/else) 🔄
+- [x] Exercice 02 — Les conditions (if/else) ✅
 
 ---
 

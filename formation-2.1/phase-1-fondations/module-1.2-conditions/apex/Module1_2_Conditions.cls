@@ -15,7 +15,7 @@ public class Module1_2_Conditions {
         // Si le prix est supérieur à 300000 → afficher 'Maison chère'
         // Sinon → afficher 'Maison abordable'
 
-        if (TODO) {
+        if (prix > 300000) {
             System.debug('Maison chère');
         } else {
             System.debug('Maison abordable');
@@ -25,7 +25,7 @@ public class Module1_2_Conditions {
         // Si nbChambres est supérieur ou égal à 3 → afficher 'Grand logement'
         // Sinon → afficher 'Petit logement'
 
-        if (TODO) {
+        if (nbChambres >= 3) {
             System.debug('Grand logement');
         } else {
             System.debug('Petit logement');
@@ -35,7 +35,7 @@ public class Module1_2_Conditions {
         // Si la ville est égale à 'Paris' → afficher 'Maison à Paris'
         // Sinon → afficher 'Maison en province'
 
-        if (TODO) {
+        if (ville == 'Paris') {
             System.debug('Maison à Paris');
         } else {
             System.debug('Maison en province');

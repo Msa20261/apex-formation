@@ -15,7 +15,7 @@ ville = "Paris"
 # Si le prix est supérieur à 300000 → afficher "Maison chère"
 # Sinon → afficher "Maison abordable"
 
-if TODO:
+if (prix > 300000 ):
     print("Maison chère")
 else:
     print("Maison abordable")
@@ -24,7 +24,7 @@ else:
 # Si nb_chambres est supérieur ou égal à 3 → afficher "Grand logement"
 # Sinon → afficher "Petit logement"
 
-if TODO:
+if nb_chambres >= 3:
     print("Grand logement")
 else:
     print("Petit logement")
@@ -33,7 +33,7 @@ else:
 # Si la ville est égale à "Paris" → afficher "Maison à Paris"
 # Sinon → afficher "Maison en province"
 
-if TODO:
+if ville == "Paris":
     print("Maison à Paris")
 else:
     print("Maison en province")
