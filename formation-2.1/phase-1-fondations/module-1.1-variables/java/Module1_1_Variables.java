@@ -8,16 +8,16 @@ public class Module1_1_Variables {
     public static void main(String[] args) {
 
         // TODO 1 : Mets "Villa Soleil" à la place de ""
-        String nomMaison = "";
+        String nomMaison = "Villa Soleil";
 
         // TODO 2 : Mets 3 à la place de 0
-        int nbChambres = 0;
+        int nbChambres = 3;
 
         // TODO 3 : Mets 250000.00 à la place de 0
-        double prix = 0;
+        double prix = 250000.00;
 
         // TODO 4 : Mets true à la place de false  (minuscule en Java !)
-        boolean estDisponible = false;
+        boolean estDisponible = true;
 
         // Ne modifie pas ces lignes
         System.out.println("Nom : " + nomMaison);

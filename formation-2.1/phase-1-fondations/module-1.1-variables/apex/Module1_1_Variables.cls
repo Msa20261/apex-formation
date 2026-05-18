@@ -7,16 +7,16 @@ public class Module1_1_Variables {
     public static void run() {
 
         // TODO 1 : Mets 'Villa Soleil' à la place de ''
-        String nomMaison = '';
+        String nomMaison = 'Villa Soleil';
 
         // TODO 2 : Mets 3 à la place de 0
-        Integer nbChambres = 0;
+        Integer nbChambres = 3;
 
         // TODO 3 : Mets 250000.00 à la place de 0
-        Decimal prix = 0;
+        Decimal prix = 250000.00;
 
         // TODO 4 : Mets true à la place de false
-        Boolean estDisponible = false;
+        Boolean estDisponible = true;
 
         // Ne modifie pas ces lignes
         System.debug('Nom : ' + nomMaison);
