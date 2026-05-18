@@ -12,7 +12,7 @@ public class Module1_3_Boucles {
         // Affiche les nombres de 1 à 5
         // Syntaxe : for (int i = 1; i <= 5; i++) { ... }
 
-        for (int i = TODO; i <= TODO; i++) {
+        for (int i = 1; i <= 5; i++) {
             System.out.println(i);
         }
 
@@ -22,7 +22,7 @@ public class Module1_3_Boucles {
 
         List<String> maisons = Arrays.asList("Villa Soleil", "Maison Rose", "Le Chalet");
 
-        for (String nom : TODO) {
+        for (String nom : maisons) {
             System.out.println(nom);
         }
 
@@ -32,7 +32,7 @@ public class Module1_3_Boucles {
 
         int compteur = 3;
 
-        while (compteur TODO) {
+        while (compteur > 0) {
             System.out.println(compteur);
             compteur--;
         }

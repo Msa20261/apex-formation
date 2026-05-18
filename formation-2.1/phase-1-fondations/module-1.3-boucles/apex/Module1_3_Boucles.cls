@@ -9,7 +9,7 @@ public class Module1_3_Boucles {
         // Affiche les nombres de 1 à 5
         // Syntaxe : for (Integer i = 1; i <= 5; i++) { ... }
 
-        for (Integer i = TODO; i <= TODO; i++) {
+        for (Integer i = 1; i <= 5; i++) {
             System.debug(i);
         }
 
@@ -19,7 +19,7 @@ public class Module1_3_Boucles {
 
         List<String> maisons = new List<String>{'Villa Soleil', 'Maison Rose', 'Le Chalet'};
 
-        for (String nom : TODO) {
+        for (String nom : maisons) {
             System.debug(nom);
         }
 
@@ -29,7 +29,7 @@ public class Module1_3_Boucles {
 
         Integer compteur = 3;
 
-        while (compteur TODO) {
+        while (compteur > 0) {
             System.debug(compteur);
             compteur--;
         }

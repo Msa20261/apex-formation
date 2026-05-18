@@ -12,7 +12,7 @@
 |----------|-------|------|------|--------|------|--------|
 | 01 | Les variables | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 02 | Les conditions (if/else) | ✅ | ✅ | ✅ | ✅ | Terminé |
-| 03 | Les boucles (for) | 🔄 | 🔄 | 🔄 | 🔄 | En cours |
+| 03 | Les boucles (for) | ✅ | ✅ | ✅ | ✅ | Terminé |
 | 04 | Les méthodes / fonctions | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
 | 05 | Les classes | ⬜ | ⬜ | ⬜ | ⬜ | A venir |
 | 06 | SOSL (recherche) | ⬜ | ⬜ | — | — | A venir |
@@ -32,6 +32,7 @@
 - [x] Création du fichier de suivi
 - [x] Exercice 01 — Les variables ✅
 - [x] Exercice 02 — Les conditions (if/else) ✅
+- [x] Exercice 03 — Les boucles (for/while) ✅
 
 ---
 

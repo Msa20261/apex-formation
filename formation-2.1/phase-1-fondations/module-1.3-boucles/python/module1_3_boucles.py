@@ -5,7 +5,7 @@
 # Affiche les nombres de 1 à 5
 # Syntaxe : for i in range(début, fin+1):
 
-for i in range(TODO, TODO):
+for i in range(1, 6):
     print(i)
 
 # --- QUESTION 2 : Boucle for sur une liste ---
@@ -14,7 +14,7 @@ for i in range(TODO, TODO):
 
 maisons = ["Villa Soleil", "Maison Rose", "Le Chalet"]
 
-for nom in TODO:
+for nom in maisons:
     print(nom)
 
 # --- QUESTION 3 : Boucle while ---
@@ -23,7 +23,7 @@ for nom in TODO:
 
 compteur = 3
 
-while compteur TODO:
+while compteur > 0:
     print(compteur)
     compteur -= 1
 
