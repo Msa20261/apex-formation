@@ -20,8 +20,8 @@
 | 2.1 | SELECT basique | ✅ |
 | 2.2 | WHERE — filtrer | ✅ |
 | 2.3 | ORDER BY · LIMIT · OFFSET | ✅ |
-| 2.4 | COUNT · SUM | 🔄 |
-| 2.5 | Relations entre objets | ⬜ |
+| 2.4 | COUNT · SUM | ✅ |
+| 2.5 | Relations entre objets | 🔄 |
 | **PHASE 3 — Apex intermédiaire** | | ⬜ A venir |
 | **PHASE 4 — SOSL** | | ⬜ A venir |
 | **PHASE 5 — Classes de test** | | ⬜ A venir |
@@ -47,7 +47,8 @@
 - [x] Module 2.1 — SELECT basique ✅
 - [x] Module 2.2 — WHERE filtrer ✅
 - [x] Module 2.3 — ORDER BY · LIMIT · OFFSET ✅
-- [ ] Module 2.4 — COUNT · SUM 🔄
+- [x] Module 2.4 — COUNT · SUM ✅
+- [ ] Module 2.5 — Relations entre objets 🔄
 
 ---
 
