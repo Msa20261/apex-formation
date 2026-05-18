@@ -1,0 +1,24 @@
+-- MODULE 1.2 - LES CONDITIONS (SOQL)
+-- En SOQL, les conditions se font avec WHERE
+-- Lance chaque requête séparément dans Developer Console > Query Editor
+
+-- QUESTION 1
+-- Récupère les maisons dont le prix est supérieur à 300000
+-- Remplace ??? par la bonne condition
+SELECT Name, Price__c
+FROM House__c
+WHERE ???
+
+-- QUESTION 2
+-- Récupère les maisons qui ont 3 chambres ou plus
+-- Remplace ??? par la bonne condition
+SELECT Name, Bedroom__c
+FROM House__c
+WHERE ???
+
+-- QUESTION 3
+-- Récupère les maisons situées à Paris
+-- Remplace ??? par la bonne condition
+SELECT Name, City__c
+FROM House__c
+WHERE ???
